@@ -22,6 +22,22 @@
         "kind": "build",
         "isDefault": true
       }
+    },
+    {
+      "label": "Build Prime",
+      "type": "shell",
+      "command": "/usr/bin/gcc",
+      "args": [
+        "-g",
+        "-O0",
+        "/home/usaer1/202401001113/remaining_lab_0g3OCb/c/prime.c",
+        "-o",
+        "/home/usaer1/202401001113/remaining_lab_0g3OCb/c/prime",
+        "-lm"
+      ],
+      "problemMatcher": [
+        "$gcc"
+      ]
     }
   ]
 }

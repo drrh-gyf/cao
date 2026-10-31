@@ -14,6 +14,20 @@
       "MIMode": "gdb",
       "miDebuggerPath": "/usr/bin/gdb",
       "preLaunchTask": "Build C"
+    },
+    {
+      "name": "Debug Prime",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "/home/usaer1/202401001113/remaining_lab_0g3OCb/c/prime",
+      "args": [],
+      "stopAtEntry": true,
+      "cwd": "/home/usaer1/202401001113/remaining_lab_0g3OCb/c",
+      "environment": [],
+      "externalConsole": false,
+      "MIMode": "gdb",
+      "miDebuggerPath": "/usr/bin/gdb",
+      "preLaunchTask": "Build Prime"
     }
   ]
 }
